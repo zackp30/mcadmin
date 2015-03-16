@@ -1,5 +1,7 @@
 # Java installation
 
+Usually you would have Java installed already (because the Minecraft client itself requires it, unless using the in-built JRE). But I shall walk you through this anyway.
+
 ## OpenJDK
 
 OpenJDK is the open source implementation of Java.
