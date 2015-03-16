@@ -2,6 +2,7 @@
 title: The Minecraft Server Administration Guide.
 date: Mon 16 Mar 10:10:32 UTC 2015
 author: Zack Piper
+toc: yes
 ---
 
 # Meta
