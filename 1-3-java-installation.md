@@ -6,7 +6,7 @@ Usually you would have Java installed already (because the Minecraft client itse
 
 OpenJDK is the open source implementation of Java.
 
-1. Download the program: (all builds are from <https://github.com/alexkasko/openjdk-unofficial-builds#openjdk-unofficial-installers-for-windows-linux-and-mac-os-x> (thanks to him!))
+1. Download the program (don't do this if using method 2, as described below): (all builds are from <https://github.com/alexkasko/openjdk-unofficial-builds#openjdk-unofficial-installers-for-windows-linux-and-mac-os-x> (thanks to him!))
   - Windows 32bit <https://bitbucket.org/alexkasko/openjdk-unofficial-builds/downloads/openjdk-1.7.0-u60-unofficial-windows-i586-installer.zip>
     - 32bit OpenJDK should work on both 32bit and 64bit, however, you cannot allocate more than 1GB of RAM to the MC instance if you use 32bit.
   - Windows 64bit <https://bitbucket.org/alexkasko/openjdk-unofficial-builds/downloads/openjdk-1.7.0-u60-unofficial-windows-amd64-installer.zip>
@@ -17,11 +17,25 @@ OpenJDK is the open source implementation of Java.
     - 64bit OpenJDK should work on only 64bit, there are no memory limitations that I know of.
   - Mac OS X 64bit <https://bitbucket.org/alexkasko/openjdk-unofficial-builds/downloads/openjdk-1.7.0-u60-unofficial-macosx-x86_64-installer.zip>.
     - 64bit OpenJDK should work on only 64bit (32bit macs are unheard of nowadays), there are no memory limitations that I know of.
+
+## Installation method 1
+
 2. Extract the zip file and install using the file named `install` (or `install.exe` on Windows), by executing it (Windows: double click, Mac OS X: double click, Linux: `./install` within the terminal.)
+3. Java should now be installed.
+
+## Installation method 2 (Linux only)
+
+- openSUSE: `zypper in java-1_8_0-openjdk-headless`
+- Ubuntu: `apt-get install default-jre`
+
 
 ## Oracle Java
 
 Oracle Java (as I call it) is the closed-source implementation of Java, and is developed by Oracle who initially created Java.
+
+- Windows: <https://www.java.com/en/download/help/windows_manual_download.xml>
+- Linux: <https://www.java.com/en/download/help/linux_install.xml>
+- OS X: <https://www.java.com/en/download/help/mac_install.xml>
 
 ## Differences
 
